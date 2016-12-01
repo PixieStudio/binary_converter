@@ -11,7 +11,6 @@ menu = { "1": "RGB to SWC",
          "8": "Binary Coded Decimal"
 }
 100.times do 
-  # menu.each do |mk, mv|
     # Menu
     " Menu ".title('h1')
     " Safe Web Colors ".title
@@ -45,5 +44,4 @@ menu = { "1": "RGB to SWC",
       choice = gets.chomp
       break if choice == "y"
     end # choice
-  # end #menu hash
 end #loop
